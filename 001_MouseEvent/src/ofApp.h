@@ -4,10 +4,8 @@
 
 class ofApp : public ofBaseApp {
 private:
-    float rad;
-    float posX;
-    float posY;
-
+    float posX, posY;
+    float goalX, goalY;
 public:
     void setup();
     void update();

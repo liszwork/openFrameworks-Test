@@ -30,21 +30,3 @@ public:
     void gotMessage(ofMessage msg);
 
 };
-
-class color {
-public:
-    int r = 0;
-    int g = 0;
-    int b = 0;
-};
-
-class shape {
-private:
-    int x = 0;
-    int y = 0;
-    int r = 100;
-    int beforeR = r;
-    int addVal = 0;
-public:
-    void draw();
-};

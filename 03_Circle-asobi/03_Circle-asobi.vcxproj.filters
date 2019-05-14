@@ -7,6 +7,8 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="ShapeData.cpp" />
+    <ClCompile Include="ShapeCircle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -20,6 +22,8 @@
     <ClInclude Include="src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="ShapeData.h" />
+    <ClInclude Include="ShapeCircle.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="icon.rc" />

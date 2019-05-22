@@ -2,11 +2,19 @@
 
 #include "ofMain.h"
 
+/*
+ * ref. https://qiita.com/0x50/items/87258b7720ca754da481
+ * ./bin/data/にcicaのBoldのttf入れる必要あり
+ * →コピーロジック入れる？
+ */
+
 class ofApp : public ofBaseApp {
 private:
     float posX, posY;
     float goalX, goalY;
 public:
+    ofTrueTypeFont cica;
+
     void setup();
     void update();
     void draw();
